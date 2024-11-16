@@ -22,7 +22,7 @@ composer create-project --prefer-dist laravel/laravel my-laravel-app   # Create 
 ```
 
 ```bash
-cd my-laravel-app                 # Change directory into the new Laravel app                                               
+cd my-laravel-app                 # Change directory into the new Laravel app
 ```
 
 ```bash
@@ -30,7 +30,7 @@ cp .env.example .env               # Copy example env to .env
 ```
 
 ```bash
-php artisan key:generate           # Generate the application key                                          
+php artisan key:generate           # Generate the application key
 ```
 
 #
@@ -42,19 +42,19 @@ php artisan list                   # List all available artisan commands
 ```
 
 ```bash
-php artisan help [command]         # Display help for a specific command        
+php artisan help [command]         # Display help for a specific command
 ```
 #
 ### Development Server
 ```bash
-php artisan serve                   # Start Laravel's built-in development server                       
+php artisan serve                   # Start Laravel's built-in development server
 ```
 
 #
 ### Application Key
 
 ```bash
-php artisan key:generate              # Generate a new application key                 
+php artisan key:generate              # Generate a new application key
 ```
 #
 ## **Database Migrations**
